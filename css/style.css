@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-navigation {
+    width: 100vw;
+    height: 6vh;
+    background-color: #363636;
+}
+
+.button-open {
+    width: 10%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.container-menu {
+    width: 50vw;
+    height: 40vh;
+    background-color: #C0C0C0;
+    position: absolute;
+    top: 0px;
+    display: none;
+    box-shadow: 2px 2px 20px 2px #1C1C1C;
+    border-radius: 0px 50px 50px 50px;
+}
+
+.button-close {
+    width: 16%;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.menu {
+    height: 33vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.list-item {
+    font-size: 4em;
+    color: #FF0000;
+    margin-left: 160px;
+    font-family: 'Indie Flower', cursive;
+}
