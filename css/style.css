@@ -11,31 +11,31 @@
 }
 
 .button-open {
-    width: 10%;
+    width: 3%;
     height: auto;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .container-menu {
-    width: 50vw;
-    height: 40vh;
+    width: 25vw;
+    height: 30vh;
     background-color: #C0C0C0;
     position: absolute;
     top: 0px;
     display: none;
-    box-shadow: 2px 2px 20px 2px #1C1C1C;
-    border-radius: 0px 50px 50px 50px;
+    box-shadow: 2px 2px 2px #1C1C1C;
+    border-radius: 0px 10px 10px 10px;
 }
 
 .button-close {
-    width: 16%;
+    width: 6%;
     height: auto;
-    margin-left: 60px;
-    margin-top: 20px;
+    margin-left: 28px;
+    margin-top: 8px;
 }
 
 .menu {
-    height: 33vh;
+    height: 17vh;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -43,8 +43,8 @@
 }
 
 .list-item {
-    font-size: 4em;
+    font-size: 2em;
     color: #FF0000;
-    margin-left: 160px;
+    margin-left: 74px;
     font-family: 'Indie Flower', cursive;
 }
